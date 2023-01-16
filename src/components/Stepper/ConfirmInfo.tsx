@@ -23,8 +23,8 @@ const ConfirmInfo: FunctionComponent<ConfirmInfoProps> = () => {
 
                 <div className="basis-1/3">
                     <h2 className="text-l font-bold mb-4 text-slate-400">Address Information</h2>
-                    <p className="mb-3 p-2"><strong>ZIP Code: </strong>fsdfsdfdsfsdfdsf</p>
-                    <p className="mb-3 p-2"><strong>Street, Apartment, Suite: </strong>sfsfsfddgdsgfdgdgdssf</p>
+                    <p className="mb-3 p-2"><strong>ZIP Code: </strong></p>
+                    <p className="mb-3 p-2"><strong>Street, Apartment, Suite: </strong></p>
                 </div>
             </div>
         </>
