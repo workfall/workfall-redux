@@ -11,7 +11,6 @@ type IStepper = workfall.models.IStepperForm;
 
 const PersonalInfo: FunctionComponent<PersonalInfoProps> = () => {
     const formData = useAppSelector((state) => state.stepper.form)
-    console.log('formData', formData);
     
     const { register, handleSubmit } = useForm({ shouldUseNativeValidation: true, defaultValues: formData });
     const dispatch = useAppDispatch()
