@@ -40,7 +40,7 @@ const Tab: FunctionComponent<TabProps> = ({ position, tabName, flexBasis, handle
     const styleClass = getLastAndFirstCSSClass(position, active)
     
     return (
-        <div onClick={(e) => handleTabClick && handleTabClick(id)} className={`${flexBasis} basis-1/4 h-full font-bold text-gray-600 text-center hover:cursor-pointer pl-2 pr-2 pt-2 border-r-2 hover:bg-slate-400 hover:text-slate-100 ${styleClass} text-sm md:text-lg`}>
+        <div onClick={(e) => handleTabClick && handleTabClick(id)} className={`${flexBasis} h-full font-bold text-gray-600 text-center hover:cursor-pointer pl-2 pr-2 pt-2 border-r-2 hover:bg-slate-400 hover:text-slate-100 text-xs lg:text-lg ${styleClass}`}>
             {tabName}
         </div>
     );

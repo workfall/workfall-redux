@@ -21,7 +21,9 @@ const stepperReducer = (
     case actions.stepper.SAVE_FORM:
       return {
         ...state,
-        form: action.stepper,
+        form: {
+          ...action.payload
+        },
       };
     default:
       return state;
